@@ -27,7 +27,7 @@ Add the plugin to your `book.json`:
 Link to a YouTube video as follows:
 
 ```
-{% youtube id="video_id", title="video_title"%}{% youtube %}
+{% youtube id="video_id", title="video_title"%}{% endyoutube %}
 ```
 
 * `id` -- The ID of the YouTube video.  For example, if the URL of the video is<br/>
