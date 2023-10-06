@@ -1,6 +1,6 @@
 {
   "name": "honkit-plugin-youtube",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Link to a YouTube video in HonKit",
   "main": "index.js",
   "scripts": {
