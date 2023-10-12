@@ -15,8 +15,9 @@ module.exports = {
         youtube: {
             process: (block) => {
                 const { id, title } = block.kwargs;
-                const link = `<a href="http://www.youtube.com/watch?v=${id}" title="${title}" target="_blank"><img src="http://img.youtube.com/vi/${id}/0.jpg" alt="${title}"></a>`;
-                return link;
+                const header = `<a href="http://www.youtube.com/watch?v=${id}" target="_blank">${title}</a>`;
+                const image = `<a href="http://www.youtube.com/watch?v=${id}" title="${title}" target="_blank"><img src="http://img.youtube.com/vi/${id}/0.jpg" alt="${title}"></a>`;
+                return `${header}<br/>${image}`;
             }
         }
     }
