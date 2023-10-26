@@ -40,3 +40,10 @@ Here is an example:
 ```
 {% youtube id="p3G5IXn0K7A", title="The Hamsterdance Song" %}{% endyoutube %}
 ```
+
+The video title might have double quotation marks. You should backslash escape each
+double quotation mark as follows:
+
+```
+{% youtube id="p3G5IXn0K7A", title="The \"Hamsterdance\" Song" %}{% endyoutube %}
+```
